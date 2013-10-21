@@ -3,7 +3,7 @@ package multi.ds.domain
 class UserHost2 extends BaseUser {
 
     static mapping = {
-        table 'users'
+        table 'my_users'
         datasource 'second'
         datePromoted sqlType: 'date'
     }
