@@ -24,6 +24,10 @@ environments {
             dbCreate = "update"
             url = "jdbc:h2:mem:testDb;MVCC=TRUE;LOCK_TIMEOUT=10000"
         }
+        dataSource2 {
+            dbCreate = "update"
+            url = "jdbc:h2:mem:testDb2;MVCC=TRUE;LOCK_TIMEOUT=10000"
+        }
     }
     production {
         dataSource {
