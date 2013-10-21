@@ -6,7 +6,7 @@ class Device {
 
     static mapping = {
         table 'devices'
-        platform inList: Platform.values()*.id, sqlType:'Int'
+        platform enumType: "ordinal"
     }
 
     static constraints = {
