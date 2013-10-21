@@ -44,5 +44,8 @@
 # other
 *.iws
 
+db
 
-
+*.iml
+*.ipr
+*.iws
